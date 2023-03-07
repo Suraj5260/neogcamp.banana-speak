@@ -1,6 +1,7 @@
 
 .textBox{
+    display: block;
     width: 760px;
     height:25vh;
-    margin: 10px 30px;
+    margin: 20px 30px;
 }

@@ -13,9 +13,21 @@
 <body>
     <h1> Talk banana</h1>
 
-    <!-- <textarea class="ipbox textBox" placeholder="Your text goes here !"></textarea> -->
+    <textarea id="ipbox" class="textBox" placeholder="Your text goes here !"></textarea>
 
     <button id="btn-translate">Translate</button>
+
+    <script>
+        var btnTranslate = document.querySelector('#btn-translate');
+        var textip = document.querySelector('#ipbox');
+
+        btnTranslate.addEventListener("click", function clickEventHandler() {
+            console.log("clicked")
+        });
+
+
+
+    </script>
 
 </body>
 

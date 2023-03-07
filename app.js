@@ -1,5 +1,5 @@
 
-var btnTranslate = document.querySelector('#btn-translate');
+// var btnTranslate = document.querySelector('#btn-translate')
+// console.log(btnTranslate);
 
-console.log(btnTranslate);
-console.log("yoo") 
+// console.log("yoo") 
